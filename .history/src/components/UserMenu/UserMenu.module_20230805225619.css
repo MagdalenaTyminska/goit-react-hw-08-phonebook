@@ -1,0 +1,22 @@
+.btn {
+  height: 30px;
+  padding: 0 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(182, 146, 216);
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: blueviolet;
+}
+
+.btn:active {
+  background-color: rgb(61, 15, 104);
+}
+
+.userName {
+  font-weight: 600;
+  margin: 0;
+}

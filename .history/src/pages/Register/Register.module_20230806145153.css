@@ -1,0 +1,43 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formBox {
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+  margin-top: 15px;
+}
+
+.button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 30px;
+  width: 85px;
+  padding: 0 15px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.41);
+  background-color: #e5e5ff;
+  color: black;
+  margin-right: 0;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: blueviolet;
+}
+
+.button:active {
+  background-color: rgb(61, 15, 104);
+}
+
+.input {
+  margin-left: 20px;
+}

@@ -1,0 +1,40 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formBox {
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+  margin: ;
+}
+
+.button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 30px;
+  width: 85px;
+  padding: 0 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(182, 146, 216);
+  color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: blueviolet;
+}
+
+.button:active {
+  background-color: rgb(61, 15, 104);
+}
+
+.input {
+  margin-left: 20px;
+}

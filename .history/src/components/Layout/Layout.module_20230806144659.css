@@ -1,0 +1,9 @@
+.navBox {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+  margin-bottom: 20p;
+}

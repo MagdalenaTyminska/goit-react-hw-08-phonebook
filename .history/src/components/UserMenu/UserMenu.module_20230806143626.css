@@ -1,0 +1,27 @@
+.boxApp {
+
+}
+
+.button {
+  height: 30px;
+  padding: 0 15px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.41);
+  background-color: white;
+}
+
+.button:hover {
+  background-color: pink;
+  color: white;
+}
+
+.button:active {
+  background-color: pink;
+  color: white;
+}
+
+.userName {
+  font-weight: 600;
+  margin: 0;
+}

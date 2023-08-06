@@ -1,0 +1,25 @@
+.button {
+  height: 30px;
+  padding: 0 15px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.41);
+  
+}
+
+.button:hover {
+  background-color: pink;
+  color: white;
+  background-color: #e5e5ff;
+  color: black;
+}
+
+.button:active {
+  background-color: #e5e5ff;
+  color: black;
+}
+
+.userName {
+  font-weight: 600;
+  margin: 0;
+}
