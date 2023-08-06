@@ -28,6 +28,7 @@ export const Contacts = () => {
       </Section>
       <Section title="Contacts">
         <Filter />
+        
         <ContactList />
         {isLoading && !error && <Loader />}
       </Section>
